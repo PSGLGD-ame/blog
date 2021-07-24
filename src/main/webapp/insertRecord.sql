@@ -1,0 +1,15 @@
+use mobileDatabase;
+insert into mobileClassify values
+           (1,'iOS手机'), 
+           (2,'Android手机');
+insert into mobileForm values
+           ('A2223','Apple iPhone11','苹果公司',5999,'128G黑色','apple1.jpg',1), 
+           ('A1699','Apple iPhone6s plus','苹果公司',5999,'128G金色','apple2.jpg',1),
+           ('HW987','Huawei mate30 Pro','华为公司',5798,'128G黑色','huawei1.jpg',2), 
+           ('HW658','Huawei P30','华为公司',4698,'128G蓝色','huawei2.jpg',2),
+           ('XM123','小米9 Pro5G','小米公司',4398,'128G蓝色','xiaomi1.jpg',2),
+           ('XM567','红米 note8','小米公司',1099,'64G红色','xiaomi2.jpg',2); 
+select * from mobileClassify;
+select * from mobileForm; 
+
+  
